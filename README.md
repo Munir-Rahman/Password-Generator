@@ -48,10 +48,15 @@ cd password-generator
 ## 📁 Folder Structure
 password-generator/
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── img/
+
 │   └── password-generator.png
+
 └── README.md
 
 ## ❗Note
