@@ -45,7 +45,7 @@ cd password-generator
 - Then it randomly picks characters from that pool to build a password of the chosen length.
 - The result is shown in the UI, with options to copy or clear it.
 
-##📁 Folder Structure
+## 📁 Folder Structure
 password-generator/
 ├── index.html
 ├── style.css
@@ -54,20 +54,20 @@ password-generator/
 │   └── password-generator.png
 └── README.md
 
-##❗Note
+## ❗Note
 - If no checkbox is selected, the password generator will return an empty string.
 - Make sure to select at least one character type.
 
-##📄 License
+## 📄 License
 This project is licensed under the MIT License.
 Feel free to use and customize it.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Munir Rahman
 Front-End Web Developer
 Email : munirrahmanrahmani0@gmail.com
 
-##⭐️ Support
+## ⭐️ Support
 If you found this project helpful, please give it a ⭐️ on GitHub and share it with others!
 
 ---
