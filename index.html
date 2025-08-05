@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password Generator</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="Password Generator, Password, Generator, ">
+    <meta name="author" content="Munir Rahman">
+    <meta>
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-text">
+            <h2>Password Generator</h2>
+        </div>
+        <div class="result-drop">
+            <div class="result">
+                <p id="password"></p>
+                <span for="password" onclick="copy()">📋</span>
+            </div>
+        </div>
+        <div class="drop-down">
+            <div class="lenght">
+                <label for="size">Password_Lenght</label>
+                <input type="number" id="size" max="15" min="8" value="10">
+            </div>
+            <div class="uppercase">
+                <label for="uppercase">Include Uppercase letters</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="lowercase">
+                <label for="lowercase">Include lowercase letters</label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="numbers">
+                <label for="numbers">Include numbers</label>
+                <input type="checkbox" id="numbers">
+            </div>
+            <div class="Symbols">
+                <label for="Symbols">Include Symbols</label>
+                <input type="checkbox" id="Symbols">
+            </div>
+            <div class="clearbtn">
+                <button id="clearbtn">Clear Password</button>
+            </div>
+            <div class="btn">
+                <button onclick="passwordfun()">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>
